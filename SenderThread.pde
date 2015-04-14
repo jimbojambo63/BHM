@@ -23,8 +23,8 @@ public class SenderThread implements Runnable {
       try  {
         wr.write( postData );
         wr.close();
-        //println("tutto ok");
-         //println(cox.getResponseCode());
+        println("tutto ok");
+        println(cox.getResponseCode());
       }
       
     catch(Exception e)

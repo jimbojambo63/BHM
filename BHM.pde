@@ -43,7 +43,7 @@ void setup()
   graphs = loadImage("graphs.png");
   astronaut = loadImage("astronaut.png");
   bannerText = loadImage("banner.png");
-  size(350, 600);
+  //size(350, 600);
 
   bottoni=new ArrayList<Button>(); 
   //button for changing theire vertical position
